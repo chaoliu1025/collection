@@ -10,5 +10,6 @@ public class ArrayListTest {
 		int oldCapacity = 3;
 		int newCapacity = oldCapacity + (oldCapacity >> 1);
 		System.out.println(newCapacity);
+		
 	}
 }
