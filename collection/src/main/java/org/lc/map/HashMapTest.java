@@ -23,6 +23,10 @@ public class HashMapTest {
 		System.out.println(map.get(s2));
 		System.out.println(map.get(s3));
 		
+		Map<Integer, String> inteMap = new HashMap<Integer, String>();
+		inteMap.put(1, "1");
+		inteMap.put(1, "11");
+		System.out.println(inteMap.get(1));
 	}
 
 }
